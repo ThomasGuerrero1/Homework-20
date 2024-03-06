@@ -1,0 +1,25 @@
+body {
+  color: white;
+  background-color: black;
+}
+navbar {
+  background-color: black;
+  color: white;
+  float: right;
+}
+#heroImg {
+  width: 450px;
+}
+.navbar-nav{
+  color: #dd4646;
+}
+.jumbotron {
+  background-color: black;
+  color: white;
+}
+.jumbotron img{
+  width: 450px;
+}
+.finalJumbotron img {
+  width: 1000px;
+}
