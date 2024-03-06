@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Style.css">
     <title>UX/UI Homework 20</title>
+    <!--Scroll Elements-->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black" id="top">
         <img src="Images/Dark Logo.jpg">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +42,7 @@
         </div>
       </nav>
       <!--DoE Jumbotron-->
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" id="top">
         <div class="container">
           <h1 class="display-4">U.S. Department of Education Redesign</h1>
           <img id="heroImg" src="Images/DoE Home Page.png" alt="DoE Home Page">
@@ -44,72 +50,78 @@
           <h6>JUMP TO A SECTION:</h6>
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-danger" href="#">RESEARCH <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-danger" href="#research">RESEARCH <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">DEFINITION</a>
+              <a class="nav-link text-danger" href="#definition">DEFINITION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">IDEATION</a>
+              <a class="nav-link text-danger" href="#ideation">IDEATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">PTOTOTYPING</a>
+              <a class="nav-link text-danger" href="#prototyping">PROTOTYPING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">TESTING</a>
+              <a class="nav-link text-danger" href="#testing">TESTING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger" href="#">FINAL PROTOTYPE</a>
+              <a class="nav-link text-danger" href="#finalPrototype">FINAL PROTOTYPE</a>
             </li>
           </ul>
         </div>
       </div>
       <!-- Research Jumbotron-->
-      <div class="jumbotron jumbotron-fluid bg-secondary">
+      <div class="jumbotron jumbotron-fluid bg-dark" id="research">
         <div class="container">
           <img src="Images/Research.png" alt="User Research Results">
           <h1 class="display-4">Research</h1>
           <p class="lead">In this research project, interviews were planned and conducted with a broad range of current and potential users.  The questions were structured to find out about user motivations and the usability of the DoE website.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
       <!-- Definition Jumbotron-->
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" id="definition">
         <div class="container">
           <img src="Images/Definition.png" alt="Navigation User Test Results">
           <h1 class="display-4">Definition</h1>
           <p class="lead">Users come to the DoE website to learn how to acquire financial aid for college and to manage student loans.  Pain-points include a confusing layout and a vibe that feels slightly too cold for an education website.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
       <!-- Ideation Jumbotron-->
-      <div class="jumbotron jumbotron-fluid bg-secondary">
+      <div class="jumbotron jumbotron-fluid bg-dark" id="ideation">
         <div class="container">
           <img src="Images/Ideation.png" alt="Sketches">
           <h1 class="display-4">Ideation</h1>
           <p class="lead">In the initial sketches for the prototypes, I tried to keep simplicity in mind.  As the design progressed, I wanted to incorporate a bold color palette and large images to compliment the simpler navigation and add warmth.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
       <!-- Prototyping Jumbotron-->
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" id="prototyping">
         <div class="container">
           <img src="Images/Prototyping.png" alt="LoFi Versions">
           <h1 class="display-4">Prototyping</h1>
           <p class="lead">The first LoFi versions.  User testing could now begin.  Different color palettes and the navigation system were at the top of the list of elements to be tested.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
       <!-- Testing Jumbotron-->
-      <div class="jumbotron jumbotron-fluid bg-secondary">
+      <div class="jumbotron jumbotron-fluid bg-dark" id="testing">
         <div class="container">
           <img src="Images/Testing.png" alt="Elements to Change">
           <h1 class="display-4">Testing</h1>
           <p class="lead">During user testing users were asked about fonts, the color palette, and navigation.  Users unanimously felt that a Home button should be added to the pages of the mobile version.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
       <!-- Final Prototype Jumbotron-->
-      <div class="finalJumbotron jumbotron-fluid">
+      <div class="finalJumbotron jumbotron-fluid" id="finalPrototype">
         <div class="container">
           <img src="Images/Final Prototype.png" alt="Final Prototype">
           <h1 class="display-4">Final Prototype</h1>
           <p class="lead">Based on the data from user testing, a home button was added.  Additionally, the font of the copy above the images was increased and made bold, and the images were changed to help with confusion about what page the user was on.</p>
+          <a class="nav-link text-danger" href="#top">BACK TO TOP</a>
         </div>
       </div>
     <!-- Optional JavaScript -->
